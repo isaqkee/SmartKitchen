@@ -6,7 +6,7 @@ import { useState } from 'react'
 const alturaStatusBar = StatusBar.currentHeight
 const KEY_GPT = 'SUA_CHAVE_DE_API';
 
-export default function App() {
+export function Home() {
 
   const [load, defLoad] = useState(false);
   const [receita, defReceita] = useState("");
