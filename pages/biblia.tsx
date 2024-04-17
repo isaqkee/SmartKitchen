@@ -63,7 +63,7 @@ export function passagemBiblia() {
   return (
     <View style={ESTILOS.container}>
       <StatusBar barStyle="dark-content" translucent={true} backgroundColor="#F1F1F1" />
-      <Text style={ESTILOS.header}>Cozinha fácil</Text>
+      <Text style={ESTILOS.header}>Passagem Bíblica</Text>
       <View style={ESTILOS.form}>
         <Text style={ESTILOS.label}>Insira os ingredientes abaixo:</Text>
         <TextInput
