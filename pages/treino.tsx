@@ -67,31 +67,31 @@ export function treinoAcademia() {
       <View style={ESTILOS.form}>
         <Text style={ESTILOS.label}>Insira seus dados abaixo:</Text>
         <TextInput
-          placeholder="Ingrediente 1"
+          placeholder="Gênero"
           style={ESTILOS.input}
           value={ingr1}
           onChangeText={(texto) => defIngr1(texto)}
         />
         <TextInput
-          placeholder="Ingrediente 2"
+          placeholder="Peso e Altura"
           style={ESTILOS.input}
           value={ingr2}
           onChangeText={(texto) => defIngr2(texto)}
         />
         <TextInput
-          placeholder="Ingrediente 3"
+          placeholder="Intensidade(Leve, Mediana, Forte)"
           style={ESTILOS.input}
           value={ingr3}
           onChangeText={(texto) => defIngr3(texto)}
         />
         <TextInput
-          placeholder="Ingrediente 4"
+          placeholder="Objetivo Final(Emagrecer, Ganhar massa ou Definir Músculos)"
           style={ESTILOS.input}
           value={ingr4}
           onChangeText={(texto) => defIngr4(texto)}
         />
         <TextInput
-          placeholder="Almoço ou Jantar"
+          placeholder="Horário ou Período"
           style={ESTILOS.input}
           value={ocasiao}
           onChangeText={(texto) => defOcasiao(texto)}
@@ -99,14 +99,14 @@ export function treinoAcademia() {
       </View>
 
       <TouchableOpacity style={ESTILOS.button} onPress={gerarReceita}>
-        <Text style={ESTILOS.buttonText}>Gerar receita</Text>
-        <MaterialCommunityIcons name="food-variant" size={24} color="#FFF" />
+        <Text style={ESTILOS.buttonText}>Gerar treino</Text>
+        <MaterialCommunityIcons name="search-web" size={24} color="#FFF" />
       </TouchableOpacity>
 
       <ScrollView contentContainerStyle={{ paddingBottom: 24, marginTop: 4, }} style={ESTILOS.containerScroll} showsVerticalScrollIndicator={false} >
         {load && (
           <View style={ESTILOS.content}>
-            <Text style={ESTILOS.title}>Produzindo receita...</Text>
+            <Text style={ESTILOS.title}>Produzindo treino...</Text>
             <ActivityIndicator color="#000" size="large" />
           </View>
         )}

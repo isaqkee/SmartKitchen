@@ -100,7 +100,7 @@ export function Home() {
 
       <TouchableOpacity style={ESTILOS.button} onPress={gerarReceita}>
         <Text style={ESTILOS.buttonText}>Gerar receita</Text>
-        <MaterialCommunityIcons name="food-variant" size={24} color="#FFF" />
+        <MaterialCommunityIcons name="search-web" size={24} color="#FFF" />
       </TouchableOpacity>
 
       <ScrollView contentContainerStyle={{ paddingBottom: 24, marginTop: 4, }} style={ESTILOS.containerScroll} showsVerticalScrollIndicator={false} >

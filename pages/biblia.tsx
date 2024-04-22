@@ -67,40 +67,22 @@ export function passagemBiblia() {
       <View style={ESTILOS.form}>
         <Text style={ESTILOS.label}>Insira os ingredientes abaixo:</Text>
         <TextInput
-          placeholder="Ingrediente 1"
+          placeholder="Personagem Bíblico"
           style={ESTILOS.input}
           value={ingr1}
           onChangeText={(texto) => defIngr1(texto)}
         />
         <TextInput
-          placeholder="Ingrediente 2"
+          placeholder="Momento/História(Ex: Davi e Golias)"
           style={ESTILOS.input}
           value={ingr2}
           onChangeText={(texto) => defIngr2(texto)}
-        />
-        <TextInput
-          placeholder="Ingrediente 3"
-          style={ESTILOS.input}
-          value={ingr3}
-          onChangeText={(texto) => defIngr3(texto)}
-        />
-        <TextInput
-          placeholder="Ingrediente 4"
-          style={ESTILOS.input}
-          value={ingr4}
-          onChangeText={(texto) => defIngr4(texto)}
-        />
-        <TextInput
-          placeholder="Almoço ou Jantar"
-          style={ESTILOS.input}
-          value={ocasiao}
-          onChangeText={(texto) => defOcasiao(texto)}
         />
       </View>
 
       <TouchableOpacity style={ESTILOS.button} onPress={gerarReceita}>
         <Text style={ESTILOS.buttonText}>Gerar receita</Text>
-        <MaterialCommunityIcons name="food-variant" size={24} color="#FFF" />
+        <MaterialCommunityIcons name="search-web" size={24} color="#FFF" />
       </TouchableOpacity>
 
       <ScrollView contentContainerStyle={{ paddingBottom: 24, marginTop: 4, }} style={ESTILOS.containerScroll} showsVerticalScrollIndicator={false} >
