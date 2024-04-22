@@ -65,7 +65,7 @@ export function petShop() {
       <StatusBar barStyle="dark-content" translucent={true} backgroundColor="#F1F1F1" />
       <Text style={ESTILOS.header}>Ração Ideal para seu(a) Companheiro(a)</Text>
       <View style={ESTILOS.form}>
-        <Text style={ESTILOS.label}>Insira os ingredientes abaixo:</Text>
+        <Text style={ESTILOS.label}>Insira as informações do seu animalzinho abaixo:</Text>
         <TextInput
           placeholder="Animal(Cachorro, Gato, Passarinho e etc.)"
           style={ESTILOS.input}
@@ -156,7 +156,7 @@ const ESTILOS = StyleSheet.create({
     marginBottom: 16,
   },
   button: {
-    backgroundColor: 'blue',
+    backgroundColor: 'purple',
     width: '90%',
     borderRadius: 8,
     flexDirection: 'row',

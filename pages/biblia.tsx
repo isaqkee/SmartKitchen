@@ -63,9 +63,9 @@ export function passagemBiblia() {
   return (
     <View style={ESTILOS.container}>
       <StatusBar barStyle="dark-content" translucent={true} backgroundColor="#F1F1F1" />
-      <Text style={ESTILOS.header}>Passagem Bíblica</Text>
+      <Text style={ESTILOS.header}>Encontre a Passagem Bíblica</Text>
       <View style={ESTILOS.form}>
-        <Text style={ESTILOS.label}>Insira os ingredientes abaixo:</Text>
+        <Text style={ESTILOS.label}>Insira as informações:</Text>
         <TextInput
           placeholder="Personagem Bíblico"
           style={ESTILOS.input}
@@ -138,7 +138,7 @@ const ESTILOS = StyleSheet.create({
     marginBottom: 16,
   },
   button: {
-    backgroundColor: 'blue',
+    backgroundColor: 'purple',
     width: '90%',
     borderRadius: 8,
     flexDirection: 'row',

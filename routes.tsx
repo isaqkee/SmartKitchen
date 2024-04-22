@@ -32,7 +32,7 @@ export function Routes() {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => {
                         if (focused) {
-                            return (<Ionicons size={25} color={"#000"} name="barbell-outline" />)
+                            return (<Ionicons size={25} color={"#000"} name="barbell" />)
                         }
                         return (<Ionicons size={20} color={"#000"} name="barbell-outline" />)
                     }
@@ -46,21 +46,21 @@ export function Routes() {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => {
                         if (focused) {
-                            return (<Ionicons size={25} color={"#000"} name="fish-outline" />)
+                            return (<Ionicons size={25} color={"#000"} name="fish" />)
                         }
                         return (<Ionicons size={20} color={"#000"} name="fish-outline" />)
                     }
                 }}
                 />
                  <Tab.Screen
-                name="biblia"
+                name="passagemBiblia"
                 component={passagemBiblia}
                 options={{
                     tabBarShowLabel: false,
                     headerShown: false,
                     tabBarIcon: ({ focused }) => {
                         if (focused) {
-                            return (<Ionicons size={25} color={"#000"} name="book-outline" />)
+                            return (<Ionicons size={25} color={"#000"} name="book" />)
                         }
                         return (<Ionicons size={20} color={"#000"} name="book-outline" />)
                     }
